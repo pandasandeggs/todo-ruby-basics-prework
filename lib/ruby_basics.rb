@@ -18,8 +18,7 @@ def return_a_value(words = "Nice")
   return words
 end
 
-def last_evaluated_value(level)
- level = "expert"
+def last_evaluated_value(level = "expert")
  return level
 end
 
