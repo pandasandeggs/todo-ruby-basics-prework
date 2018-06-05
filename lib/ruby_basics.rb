@@ -18,10 +18,11 @@ def return_a_value(words = "Nice")
   return words
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(level)
+ level = "expert"
+ return level
 end
 
-def pizza_party
-
+def pizza_party(ingredient = "cheese")
+  return ingredient
 end
